@@ -103,7 +103,6 @@ def on_message(client1, userdata, msg):
 def ActivitySent(pActivity): 
 	#Function> post incoming predicted activity to ThinkSpeak.com
     global value
-    global counter
     global flag,running,stand,walk
     if(pActivity == 'lying'): 
         value=0        
