@@ -22,8 +22,8 @@ int16_t gx, gy, gz;
   Modify to your WIFI Access Credentials.
 */
 
-const char* ssid = "mmudigitalhome@unifi";
-const char* password = "79044920";
+const char* ssid = "ssid-here";
+const char* password = "password";
 IPAddress ip(192, 168, 0, 225);
 /*
   Modify to your MQTT broker - Select only one
