@@ -28,7 +28,7 @@ IPAddress ip(192, 168, 0, 225);
 /*
   Modify to your MQTT broker - Select only one
 */
-char mqttBroker[] = "iotfoe.ddns.net";
+char mqttBroker[] = "iot-server.com";
 // byte mqttBroker[] = {192,168,1,220}; // modify to your local broker
 
 WiFiClient wifiClient;
