@@ -126,7 +126,7 @@ client1.on_message = on_message
 client1.on_subscribe = on_subscribe
 client1.connect(broker, port)
 run=True
-str_predict = []
+# str_predict = []
 while run:
     if(time.time()-now)>1:
 	# predict every 1ms
