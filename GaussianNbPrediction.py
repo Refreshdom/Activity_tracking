@@ -21,11 +21,7 @@ sub_topics = [("linkit/sensor/mpu", 1)]
 now=time.time()
 
 #apikey = "KQC2GE05YYSB9RK0"
-counter = 0
-flag = 0
-running = 0
-stand= 0
-walk= 0
+
 value=0
 
 # Load dataset
@@ -103,7 +99,7 @@ def on_message(client1, userdata, msg):
 def ActivitySent(pActivity): 
 	#Function> post incoming predicted activity to ThinkSpeak.com
     global value
-    global flag,running,stand,walk
+
     if(pActivity == 'lying'): 
         value=0        
     if(pActivity == 'sitting'):
