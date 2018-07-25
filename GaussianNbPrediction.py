@@ -113,7 +113,7 @@ def ActivitySent(pActivity):
     print(value)
     params = "/update?api_key="+apikey+"&field1=0&field2=0&field3=1000&field4=1&field6="+str(value)
     headers = {"Content-typ": "application/x-www-form-urlencoded", "Accept": "text/plain"}
-    conn = httplib.HTTPConnection("iotfoe.ddns.net:3333")
+    conn = httplib.HTTPConnection("iot.net:3333")
     conn.request("POST", params, "", headers)
     response = conn.getresponse()
     print response.status, response.reason
